@@ -1,0 +1,99 @@
+/* .delivery-options-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 300px;
+  }
+  
+  .delivery-options-modal h2 {
+    margin-bottom: 15px;
+  }
+  
+  .delivery-options-modal ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .delivery-options-modal li {
+    margin-bottom: 10px;
+  }
+  
+  .delivery-options-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .delivery-options-modal {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-input {
+    margin: 20px 0;
+  }
+  
+  .address-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+   */
+
+   .delivery-options-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 70px; /* Increased padding for more space inside */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 400px; /* Increased width */
+    min-height: 350px; /* Set a minimum height for the modal */
+    border-radius: 8px; /* Ensure the corners are rounded */
+}
+
+.delivery-options-modal h2 {
+    margin-bottom: 20px; /* Added margin for better spacing */
+}
+
+.delivery-options-modal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.delivery-options-modal li {
+    margin-bottom: 15px; /* Increased margin for better spacing between items */
+}
+
+.delivery-options-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Space above buttons */
+}
+
+.address-input {
+    margin: 20px 0;
+}
+
+.address-input label {
+    display: block; /* Ensure the label takes full width */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.address-input input {
+    width: 100%;
+    padding: 12px; /* Increased padding for the input field */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for readability */
+}

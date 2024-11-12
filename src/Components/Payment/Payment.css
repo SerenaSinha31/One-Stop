@@ -1,0 +1,166 @@
+/* .payment-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .payment-field {
+    margin-bottom: 15px;
+  }
+  
+  .payment-field label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+   */
+/* 
+   .payment-container {
+    max-width: 600px; 
+    margin: 30px auto; 
+    padding: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9;
+}
+
+.payment-field {
+    margin-bottom: 20px; 
+}
+
+.payment-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-field input {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+} */
+
+.payment-container {
+  max-width: 800px; /* Increased max width for larger container */
+  margin: 60px auto; /* Center the container horizontally with more margin */
+  padding: 20px; /* Increased padding for more space inside the container */
+  border: 10px solid #f0ebeb;
+  border-radius: 30px; /* Slightly rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+  background-color: #f9f9f9;
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+}
+
+.payment-container h2 {
+  margin-bottom: 20px; /* Space below the heading */
+  font-size: 24px; /* Larger font for the heading */
+}
+
+.payment-field {
+  margin-bottom: 20px; /* Increased margin for spacing */
+  width: 100%; /* Ensures the input fields take full width */
+}
+
+.payment-field label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 19px;
+  font-weight: bold; /* Bold labels for better visibility */
+}
+
+.payment-field input,
+.payment-field select {
+  width: 100%;
+  padding: 17px; /* Increased padding for better touch targets */
+  border: 1px solid #f9f4f4;
+  border-radius: 4px;
+  font-size: 16px; /* Slightly larger font size */
+ 
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px; /* Increased padding for the button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  width: 100%; /* Full-width button */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Additional styling for the select input */
+.payment-field select {
+  appearance: none; /* Remove default styling */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><polygon points="0,0 20,0 10,10" fill="%23ffffff"/></svg>'); /* Custom dropdown arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center; /* Positioning the arrow */
+  background-size: 12px; /* Size of the arrow */
+}
+
+.payment-field input {
+  width: 100%; /* Makes the input take the full width of its parent */
+  max-width: 600px; /* Limits the maximum width of the input field */
+  padding: 16px; /* Increase padding for better spacing */
+  font-size: 18px; /* Increase font size for better readability */
+  border: 1px solid #ece5e5; /* Border for the input */
+  border-radius: 4px; /* Rounded corners for the input */
+}
+.qr-code-container {
+  display: flex;
+  justify-content: center; /* Center the QR code */
+  margin-top: 15px; /* Space above the QR code */
+}
+
+.qr-code {
+  width: 150px; /* Set width for the QR code */
+  height: auto; /* Maintain aspect ratio */
+}
+

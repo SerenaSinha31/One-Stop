@@ -1,0 +1,60 @@
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px; /* Increased padding */
+    max-width: 1200px; /* Optional: limits the width */
+    margin: 0 auto; /* Centers the container */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-left {
+    flex: 1;
+    padding-right: 40px; /* Increased space between text and image */
+  }
+  
+  .contact-left h2 {
+    font-size: 2.5rem; /* Adjust font size */
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #333; /* Darker text for contrast */
+  }
+  
+  .contact-description {
+    font-size: 1.1rem; /* Slightly larger font */
+    margin-bottom: 1.5rem; /* Space below the description */
+    color: #666; /* Grey color for the description */
+  }
+  
+  .contact-info {
+    font-size: 1rem; /* Default font size */
+    color: #444; /* Dark grey for text */
+    line-height: 1.6; /* Better line spacing */
+  }
+  
+  .contact-info p {
+    display: flex; /* Flex for icons */
+    align-items: center; /* Center icon and text */
+    margin: 0.5rem 0; /* Space between items */
+  }
+  
+  .contact-icon {
+    margin-right: 10px; /* Space between icon and text */
+    color: #007bff; /* Primary color for icons */
+    font-size: 1.3rem; /* Adjust icon size */
+  }
+  
+  .contact-right {
+    flex: 1;
+    text-align: center; /* Center the image */
+  }
+  
+  .contact-right img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add border radius */
+    max-height: 600px; /* Set a maximum height for the image */
+    width: 50%; /* Set width to half of the container */
+  }
+  
