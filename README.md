@@ -1,3 +1,13 @@
+Features
+Setting Routes: Smooth navigation across various pages.
+Displaying Products: View products in an organized and visually appealing layout.
+Shop by Categories: Filter products easily based on categories.
+Product Detail Page: Detailed information, images, and size options for each product.
+Login Page: Secure user authentication and account management.
+Scroll to Top: Enhanced navigation flow.
+Add to Cart Logic: Easily add products to the cart and proceed to checkout.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
