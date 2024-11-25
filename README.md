@@ -1,4 +1,4 @@
-Features
+Features:
 Setting Routes: Smooth navigation across various pages.
 Displaying Products: View products in an organized and visually appealing layout.
 Shop by Categories: Filter products easily based on categories.
