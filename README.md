@@ -7,6 +7,8 @@
 - **Login Page**: Secure user authentication and account management.
 - **Scroll to Top**: Enhanced navigation flow.
 - **Add to Cart Logic**: Easily add products to the cart and proceed to checkout.
+- **Selecting Delivery Option**: Given features to select the type of Delivery Option.
+- **Selecting Payment Option**: Given the option to select the type of Payment you want to choose weather online or cash on Delivery. 
 
 
 
