@@ -1,5 +1,5 @@
 Features:
-**Setting Routes: Smooth navigation across various pages.**
+**Setting Routes: Smooth navigation across various pages.**\n
 **Displaying Products: View products in an organized and visually appealing layout.**
 **Shop by Categories: Filter products easily based on categories.**
 **Product Detail Page: Detailed information, images, and size options for each product.**
